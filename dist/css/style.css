@@ -295,4 +295,7 @@ body {
     filter: grayscale();
     margin: 0 10px;
   }
+  .porto {
+    width: 100%;
+  }
 }
