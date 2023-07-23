@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#navbar-brand {
+  font-family: "Jost", sans-serif;
+}
+
+#logo-footer {
+  font-family: "Jost", sans-serif;
+}
+
+.techstacks {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  overflow: hidden;
+}
+
+.techstacks-logo {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.techstacks-logo img {
+  height: 60px;
+  z-index: 3;
+  filter: grayscale();
+  margin: 1px 50px;
+}
+
+.ag-format-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.ag-maecenas_title {
+  padding: 100px 0;
+  text-align: center;
+  font-family: Heavitas, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #fff;
+
+  position: relative;
+}
+.ag-maecenas_title:before {
+  content: "";
+  height: 125px;
+  width: 100%;
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/animation-wave-shadow/images/wave.svg) repeat-x scroll 0 0;
+  -webkit-background-size: 1600px 198px;
+  -moz-background-size: 1600px 198px;
+  -o-background-size: 1600px 198px;
+  background-size: 1600px 198px;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  -webkit-filter: drop-shadow(5px -10px 3px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(5px -10px 3px rgba(0, 0, 0, 0.2));
+
+  -webkit-animation: an-wave 20s linear infinite;
+  -moz-animation: an-wave 20s linear infinite;
+  -o-animation: an-wave 20s linear infinite;
+  animation: an-wave 20s linear infinite;
+}
+
+.ag-maecenas_box {
+  padding: 70px 0;
+  background-color: #fff;
+
+  position: relative;
+}
+.ag-maecenas_item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  padding: 0 0 120px;
+}
+.ag-maecenas_descr {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 60%;
+  -moz-box-flex: 1;
+  -ms-flex: 1 1 60%;
+  flex: 1 1 60%;
+
+  padding: 0 40px;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ag-maecenas_title-item {
+  padding: 0 0 15px;
+
+  font-family: Heavitas, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.ag-maecenas_tagline-item {
+  padding: 0 0 15px;
+
+  font-family: Heavitas, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.ag-requirement_item {
+  padding: 10px 10px 10px 20px;
+
+  position: relative;
+}
+.ag-requirement_item:before {
+  content: "";
+  height: 6px;
+  width: 6px;
+  background-color: #00a2ff;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.ag-maecenas_img-box {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 40%;
+  -moz-box-flex: 1;
+  -ms-flex: 1 1 40%;
+  flex: 1 1 40%;
+
+  height: 300px;
+  padding: 0 15px;
+
+  text-align: center;
+}
+.ag-maecenas_item:nth-child(odd) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.svg-img-block {
+  display: none;
+}
+
+@-webkit-keyframes an-wave {
+  100% {
+    background-position-x: -1600px;
+  }
+}
+@-moz-keyframes an-wave {
+  100% {
+    background-position-x: -1600px;
+  }
+}
+@-o-keyframes an-wave {
+  100% {
+    background-position-x: -1600px;
+  }
+}
+@keyframes an-wave {
+  100% {
+    background-position-x: -1600px;
+  }
+}
+
+@media screen and (max-width: 979px) {
+  .ag-maecenas_descr {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-maecenas_item {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .ag-maecenas_item:nth-child(odd) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .ag-maecenas_descr {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -moz-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .ag-maecenas_img-box {
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+
+    height: 200px;
+    width: 100%;
+    min-width: 150px;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #herocontent {
+    padding-bottom: 65px;
+    box-sizing: border-box;
+  }
+  #texthero {
+    order: 2;
+    width: 100%;
+  }
+  #texthero h1 {
+    font-size: 20px;
+    width: 100%;
+  }
+  #imghero {
+    order: 1;
+    margin: 0 auto;
+    width: 80%;
+  }
+  #imghero img {
+    width: 80%;
+    margin: 0 auto 50px;
+    box-sizing: border-box;
+  }
+
+  .aboutme {
+    margin-top: -100px;
+  }
+  .techstacks {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .techstacks-logo {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+  }
+
+  .techstacks-logo img {
+    height: 30px;
+    z-index: 3;
+    filter: grayscale();
+    margin: 0 10px;
+  }
+}
